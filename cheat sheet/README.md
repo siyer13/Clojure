@@ -1,2 +1,3 @@
-## Excellent cheat sheet for clousure.
-### Available at [http://clojure.org/api/cheatsheet]
+### Excellent cheat sheet for clojure.
+
+Available at [http://clojure.org/api/cheatsheet]

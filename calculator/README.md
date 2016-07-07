@@ -1,14 +1,20 @@
-# calculator
+# Calculator
 
-A Clojure library designed to ... well, that part is up to you.
+Calculator program has methods definitions written in clojure to be used in Java program
 
 ## Usage
 
-FIXME
+compile the calculator using the following command
 
-## License
+```JavaScript
+ lein compile
 
-Copyright © 2016 FIXME
+This will create a target folder and will contain calculator.class file
+Now put the CalcaulatorTest.java file inside the target folder and compile the java file 
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+  javac -cp . CalculatorTest.java
+
+Get the clojure.jar and put that file also inside the target folder and run the below command.
+
+
+  java -cp .;clojure-1.8.0.jar CalculatorTest

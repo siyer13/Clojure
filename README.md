@@ -2,3 +2,5 @@
 
 
 Clojure for practice
+
+Uses prefix notation
